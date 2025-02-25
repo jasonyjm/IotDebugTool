@@ -1,0 +1,181 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="FlyView_Bottom_LanguageSwitch">语言切换</system:String>
+    <system:String x:Key="System_Title">设备测试 V:1.1.0.0</system:String>
+    <system:String x:Key="System_CloseContent">退出</system:String>
+    <system:String x:Key="System_Module_Function_Name">模组功能列表</system:String>
+    <system:String x:Key="Download_Program">OTA升级工具</system:String>
+    <system:String x:Key="Baud_Rate">波特率</system:String>
+    <system:String x:Key="Read">读取</system:String>
+    <system:String x:Key="Write">写入</system:String>
+    <system:String x:Key="AckFunction">ACK 功能</system:String>
+    <system:String x:Key="FailedNumber">失败重传次数</system:String>
+    <system:String x:Key="Number">次数</system:String>
+    <system:String x:Key="LowPower">低功耗功能</system:String>
+    <system:String x:Key="LowPowerStatus">功能状态</system:String>
+    <system:String x:Key="Enable">启用</system:String>
+    <system:String x:Key="Close">关闭</system:String>
+    <system:String x:Key="CommandModeTypeContent">指令模式</system:String>
+    <system:String x:Key="TransparentodeTypeContent">透传模式</system:String>
+    <system:String x:Key="TransparentContent">透传方式</system:String>
+    <system:String x:Key="AddressTransparentTransmission">地址透传</system:String>
+    <system:String x:Key="PureTransmission">纯透传</system:String>
+    <system:String x:Key="TargetAddress">目标地址</system:String>
+    <system:String x:Key="TargetAddressTips">请输入6位带空格的HEX</system:String>
+    <system:String x:Key="DualMode">双线模式</system:String>
+    <system:String x:Key="StatSerialPortContent">STAT-串口功能</system:String>
+    <system:String x:Key="KeyConfigurationContent">密钥配置</system:String>
+    <system:String x:Key="KeyContent">密钥</system:String>
+    <system:String x:Key="KeyContentTips">请输入16位带空格的HEX</system:String>
+    <system:String x:Key="SaveConfigurationContent">保存配置</system:String>
+    <system:String x:Key="SaveContent">保存</system:String>
+    <system:String x:Key="RestoreSettingsContent">恢复出厂设置</system:String>
+    <system:String x:Key="ExecuteContent">执行</system:String>
+    <system:String x:Key="SoftResetRestartContent">软复位-重启</system:String>
+    <system:String x:Key="TransmissionPowerContent">发射功率</system:String>
+    <system:String x:Key="PowerContent">功率</system:String>
+    <system:String x:Key="OperatingChannel">工作信道</system:String>
+    <system:String x:Key="Channel">信道</system:String>
+    <system:String x:Key="WirelessCommunicationspeedContent">无线通信速率</system:String>
+    <system:String x:Key="RateContent">速率</system:String>
+    <system:String x:Key="VersionContent">固件版本</system:String>
+    <system:String x:Key="SignalQualityContent">信号质量</system:String>
+    <system:String x:Key="SleepCycleContent">休眠周期</system:String>
+    <system:String x:Key="WakeUpSignalDurationContent">唤醒信号时长</system:String>
+    <system:String x:Key="SignalDurationContent">信号时长</system:String>
+    <system:String x:Key="MacAddressContent">MAC地址</system:String>
+    <system:String x:Key="NetidContent">1 Byte，网络 ID，用于区分网络</system:String>
+    <system:String x:Key="DataCommunicationContent">数据通信</system:String>
+    <system:String x:Key="WorkingModeContent">工作模式</system:String>
+    <system:String x:Key="WorkingModeTipContent">工作模式由硬件MODEL引脚决定(非双线模式下),MODEL引脚悬空/拉低为指令模式，拉高为透传模式</system:String>
+    <system:String x:Key="WorkingModeDataContent">命令数据</system:String>
+    <system:String x:Key="WorkingModeDataHitContent">输入通信数据最多200字节</system:String>
+    <system:String x:Key="WorkingModelTransparentTipContent">透传方式可在指令模式下查询透传方式参数得到</system:String>
+    <system:String x:Key="TransparentTextTipsContent">纯透传方式采用系统参数(目标地址)为通信对象</system:String>
+    <system:String x:Key="DataListContent">数据列表</system:String>
+    <system:String x:Key="DataGridHeaderMessageType">消息类型</system:String>
+    <system:String x:Key="DataGridHeaderTime">时间</system:String>
+    <system:String x:Key="DataGridHeaderData">数据</system:String>
+    <system:String x:Key="DataGridHeaderNotes">备注</system:String>
+    <system:String x:Key="PortNameContent">串口名称</system:String>
+    <system:String x:Key="SendCommandContent">请输入带空格的HEX命令</system:String>
+    <system:String x:Key="Btn_ClearContent">清空</system:String>
+    <system:String x:Key="Btn_SendContent">发送</system:String>
+    <system:String x:Key="OpenPortContent">请检查串口是否打开</system:String>
+    <system:String x:Key="TargetAddressCheckContent">目标地址格式不符合规定</system:String>
+    <system:String x:Key="TargetAddressCheckLengthContent">目标地址长度不符合规定</system:String>
+    <system:String x:Key="KeyCheckLengthContent">密钥长度不符合规定</system:String>
+    <system:String x:Key="KeyCheckContent">密钥格式不符合规定</system:String>
+    <system:String x:Key="MacAddressCheckLengthContent">Mac地址长度不符合规定</system:String>
+    <system:String x:Key="MacAddressCheckContent">Mac地址格式不符合规定</system:String>
+    <system:String x:Key="Send">发送</system:String>
+    <system:String x:Key="PeripheralView_Psam_RecvCmd">接收</system:String>
+    <system:String x:Key="DataSend">数据发送</system:String>
+    <system:String x:Key="SendDataTips">请选择对应的选项</system:String>
+    <system:String x:Key="PowerConfiguration">功率配置</system:String>
+    <system:String x:Key="SignalstrengthContent">信号强度</system:String>
+    <system:String x:Key="SignalToNoiseRatio">信噪比</system:String>
+    <system:String x:Key="Failed">失败</system:String>
+    <system:String x:Key="success">成功</system:String>
+    <system:String x:Key="TargetAddressNotes">当目标地址配置为 FF FF FF FF FF FF时,表示数据广播,所有接收方均会接收该包数据(接收方的NETID必须与发送方相同)</system:String>
+    <system:String x:Key="DeviceIDHint">设备唯一ID号</system:String>
+    <system:String x:Key="DeviceIDTips">DEVICE_ID</system:String>
+
+    <system:String x:Key="SerialNumber">设备序列号</system:String>
+    <system:String x:Key="GetDeviceIDTips">获取</system:String>
+
+    <system:String x:Key="PackageTypeText">升级包类型</system:String>
+    <system:String x:Key="HostPackage">主机</system:String>
+    <system:String x:Key="SubmachinePackage">子机</system:String>
+
+    <system:String x:Key="VerifyIDText">验证ID</system:String>
+    <system:String x:Key="VerifyIDTips">验证ID,13位随机数</system:String>
+    <system:String x:Key="InputParamsTips">输入参数</system:String>
+    <system:String x:Key="SelectFileTips">选择</system:String>
+
+    <system:String x:Key="SelectFileHits">请选择文件</system:String>
+    <system:String x:Key="OpenComOkTips">打开串口成功</system:String>
+    <system:String x:Key="OpenComFailTips">打开串口失败</system:String>
+    <system:String x:Key="SelectComTips">未检测到串口,请点击连接按钮刷新</system:String>
+    <system:String x:Key="OpenFileShowTips">请选择正确的文件</system:String>
+    <system:String x:Key="GenerateTips">生成</system:String>
+    <system:String x:Key="CheckSumTips">参数不合法</system:String>
+
+    <system:String x:Key="DataGridHeaderNum">升级包编号</system:String>
+    <system:String x:Key="DataGridHeaderPackData">升级数据</system:String>
+    <system:String x:Key="FilePathTips">路径</system:String>
+    <system:String x:Key="PvtModuleText">设备测试</system:String>
+
+    <system:String x:Key="PvtModuleParamsConfigure">功能参数配置</system:String>
+    <system:String x:Key="PvtModuleParamsSelect">功能参数查询</system:String>
+    <system:String x:Key="PvtModuleSet">设置</system:String>
+    <system:String x:Key="PvtModuleTextContent">阈值</system:String>
+    <system:String x:Key="PvtModuleUnitContent">低电压阈值,单位(伏)</system:String>
+
+    <system:String x:Key="PvtModuleVoltageContent">电压查询</system:String>
+    <system:String x:Key="PvtModuleMagnetometerContent">磁力计数据查询</system:String>
+    <system:String x:Key="PvtModuleCoordinateContent">坐标查询</system:String>
+    <system:String x:Key="PvtModuleGNSSTimeContent">GNSS时间</system:String>
+    <system:String x:Key="PvtModuleNBIOTContent">NBIOT参数查询</system:String>
+    <system:String x:Key="PvtModuleDeviceIDSelectContent">设备号查询</system:String>
+    <system:String x:Key="PvtModuleLowbatterythresholdContent">低电量阈值</system:String>
+    <system:String x:Key="PvtModuleLedContent">LED测试</system:String>
+    <system:String x:Key="PvtModuleKeyContent">按键测试</system:String>
+    <system:String x:Key="PvtModuleLowPowContent">请输入正确的低电压阈值</system:String>
+    <system:String x:Key="PvtModuleAttitudeSensorContent">姿态传感器</system:String>
+    <system:String x:Key="PvtModuleCommunicationtestingContent">通讯测试</system:String>
+    <system:String x:Key="PvtModuleTestAllFunction">测试所有功能</system:String>
+    <system:String x:Key="PvtModuleStopTestAllFunction">停止测试</system:String>
+    <system:String x:Key="PvtModuleGetDeviceID">获取DEVICEID</system:String>
+
+
+    <system:String x:Key="PvtApnName">APN名称</system:String>
+
+    <system:String x:Key="PvtLowPower">电压:</system:String>
+    <system:String x:Key="PvtLowPowerUnit">伏</system:String>
+    <system:String x:Key="PvtLowPowerNormal">电压正常</system:String>
+    <system:String x:Key="PvtLowPowerLow">电压过低</system:String>
+    <system:String x:Key="PvtLowGnssTime">当前GNSS时间:</system:String>
+    <system:String x:Key="PvtLowPowerOnsign">上电标志:</system:String>
+    <system:String x:Key="PvtLowPowerNotPoweredon">未上电</system:String>
+    <system:String x:Key="PvtLowPowerPoweredon">已上电</system:String>
+    <system:String x:Key="PvtLowLpwanetonoOnsign">联网标志</system:String>
+    <system:String x:Key="PvtLowLpwanetoNoConnected">未联网</system:String>
+    <system:String x:Key="PvtLowLpwanetonConnected">已联网</system:String>
+    <system:String x:Key="PvtLowLpwacsq">信号质量:</system:String>
+    <system:String x:Key="PvtLowAddreesAndPort">地址和端口号:</system:String>
+    <system:String x:Key="PvtLowDeviceNumber">设备编号:</system:String>
+    <system:String x:Key="PvtLowDeviceID">Device ID:</system:String>
+    <system:String x:Key="PvtLowXdata">X轴加速度数据:</system:String>
+    <system:String x:Key="PvtLowYdata">Y轴加速度数据:</system:String>
+    <system:String x:Key="PvtLowZdata">Z轴加速度数据:</system:String>
+    <system:String x:Key="PvtLowReturnStatus">返回状态:</system:String>
+    <system:String x:Key="PvtLowErrorCode">故障码:</system:String>
+    <system:String x:Key="PvtLowReceivedData">接收的数据</system:String>
+
+    <system:String x:Key="PvtLowCmnbText">CMNB参数</system:String>
+    <system:String x:Key="PvtConnectionTips">配置或更新网络参数后,请重新启动设备</system:String>
+    <system:String x:Key="PvtRestartDeviceTips">设备重启</system:String>
+
+    <system:String x:Key="PvtLowNbiotDebugText">调试模式</system:String>
+    <system:String x:Key="PvtLowNbiotDebugTips">将SIM70180G模块设置成通过串口直接调试的模式，跳过单片机操作</system:String>
+    <system:String x:Key="PvtLowNbiotDebugprohibit">禁止</system:String>
+    <system:String x:Key="PvtLowNbiotDebugenable">使能</system:String>
+
+    <system:String x:Key="PvtLowEchoText">信息输出</system:String>
+    <system:String x:Key="PvtLowEchoAllprohibit">全部禁止</system:String>
+    <system:String x:Key="PvtLowEchoNbiotModul">NBIOT模块</system:String>
+    <system:String x:Key="PvtLowEchoPvt">PVT</system:String>
+    <system:String x:Key="PvtLowEchoAllInfo">全部输出</system:String>
+
+    <system:String x:Key="PvtLowGnssModuleText">GNSS低功耗模式</system:String>
+    <system:String x:Key="PvtLowGnssLowPower">维持原状</system:String>
+    <system:String x:Key="PvtLowGnssEnterLowPower">进入</system:String>
+    <system:String x:Key="PvtLowGnssExitLowPower">退出</system:String>
+    <system:String x:Key="StartUpgrade">固件升级</system:String>
+    <system:String x:Key="StartUpgradeState">固件升级成功</system:String>
+    <system:String x:Key="StopUpgrade">退出升级</system:String>
+    <system:String x:Key="ShowDataTips">显示/隐藏数据列表</system:String>
+</ResourceDictionary>
