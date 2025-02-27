@@ -64,6 +64,7 @@
     <system:String x:Key="Btn_ClearContent">清空</system:String>
     <system:String x:Key="Btn_SendContent">发送</system:String>
     <system:String x:Key="OpenPortContent">请检查串口是否打开</system:String>
+    <system:String x:Key="ClosePortContent">串口已断开连接</system:String>
     <system:String x:Key="TargetAddressCheckContent">目标地址格式不符合规定</system:String>
     <system:String x:Key="TargetAddressCheckLengthContent">目标地址长度不符合规定</system:String>
     <system:String x:Key="KeyCheckLengthContent">密钥长度不符合规定</system:String>
@@ -178,4 +179,7 @@
     <system:String x:Key="StartUpgradeState">固件升级成功</system:String>
     <system:String x:Key="StopUpgrade">退出升级</system:String>
     <system:String x:Key="ShowDataTips">显示/隐藏数据列表</system:String>
+    <system:String x:Key="PvtToolFunctionName">功能事件名称</system:String>
+
+
 </ResourceDictionary>

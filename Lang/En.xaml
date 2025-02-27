@@ -64,6 +64,7 @@
     <system:String x:Key="Btn_ClearContent">Empty</system:String>
     <system:String x:Key="Btn_SendContent">Sending</system:String>
     <system:String x:Key="OpenPortContent">Please check if the serial port is open</system:String>
+    <system:String x:Key="ClosePortContent">The serial port has been disconnected</system:String>
     <system:String x:Key="TargetAddressCheckContent">The target address format does not comply with regulations</system:String>
     <system:String x:Key="TargetAddressCheckLengthContent">The length of the target address does not comply with regulations</system:String>
     <system:String x:Key="KeyCheckLengthContent">The key length does not comply with regulations</system:String>
@@ -171,4 +172,5 @@
     <system:String x:Key="StartUpgradeState">Firmware upgrade successful</system:String>
     <system:String x:Key="StopUpgrade">Exit Upgrade</system:String>
     <system:String x:Key="ShowDataTips">Show/Hide Data List</system:String>
+    <system:String x:Key="PvtToolFunctionName">Function event name</system:String>
 </ResourceDictionary>
