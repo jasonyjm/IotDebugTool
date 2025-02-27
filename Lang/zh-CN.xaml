@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="FlyView_Bottom_LanguageSwitch">语言切换</system:String>
-    <system:String x:Key="System_Title">设备测试 V:1.2.0.0</system:String>
+    <system:String x:Key="System_Title">设备测试 V:1.3.0.0</system:String>
     <system:String x:Key="System_CloseContent">退出</system:String>
     <system:String x:Key="System_Module_Function_Name">模组功能列表</system:String>
     <system:String x:Key="Download_Program">OTA升级工具</system:String>
@@ -177,6 +177,7 @@
     <system:String x:Key="PvtLowGnssExitLowPower">退出</system:String>
     <system:String x:Key="StartUpgrade">固件升级</system:String>
     <system:String x:Key="StartUpgradeState">固件升级成功</system:String>
+    <system:String x:Key="StartUpgradeFail">固件升级失败</system:String>
     <system:String x:Key="StopUpgrade">退出升级</system:String>
     <system:String x:Key="ShowDataTips">显示/隐藏数据列表</system:String>
     <system:String x:Key="PvtToolFunctionName">功能事件名称</system:String>
