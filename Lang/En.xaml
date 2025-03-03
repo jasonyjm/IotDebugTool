@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="FlyView_Bottom_LanguageSwitch">Language Switch</system:String>
-    <system:String x:Key="System_Title">Equipment testing V:1.4.0.0</system:String>
+    <system:String x:Key="System_Title">Equipment testing V:1.5.0.0</system:String>
     <system:String x:Key="System_CloseContent">Exit</system:String>
     <system:String x:Key="System_Module_Function_Name">Module Function List</system:String>
     <system:String x:Key="Download_Program">OTA Upgrade Tool</system:String>
